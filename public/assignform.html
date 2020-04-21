@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="assignform.html" method="GET">
+      <fieldset style="border: 2px solid black;">
+        <legend style="color: blue;">Personal Data</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" /><br />
+        <label for="sex">Sex:</label>
+        <input type="radio" name="sex" value="M" checked="checked" /> Male
+        <input type="radio" name="sex" value="FM" /> FeMale <br /><label
+          for="age"
+          >Age:</label
+        >
+        <select id="age" name="age">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+        </select>
+      </fieldset>
+      <fieldset style="border: 2px solid black;">
+        <legend style="color: blue;">Your interesting</legend>
+        <label for="Section">Section:</label>
+        <input
+          type="checkbox"
+          name="Section"
+          value="HTML"
+          checked="checked"
+        />HTML <input type="checkbox" name="Section" value="CSS" />CSS
+        <input type="checkbox" name="Section" value="JAVASCRIPT" />JAVASCRIPT
+        <br /><label for="Score for this website"
+          >Score for this website:</label
+        >
+        <input type="text" name="Score for this website" />
+        <br /><label for="Comment">Comment:</label><br />
+        <textarea id="Comment" cols="15" rows="10"></textarea>
+      </fieldset>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

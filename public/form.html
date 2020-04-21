@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="abc.html" method="get">
+      <fieldset>
+        <legend>Register:</legend>
+
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" />
+
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" />
+
+        <input type="submit" value="ส่งข้อมูล" />
+        <br />
+        <button type="submit">ส่งข้อมูล 2</button>
+        <br />
+        <button type="reset">ล้างข้อมูล</button>
+        <br />
+        <input type="radio" name="sex" value="M" checked="checked" /> Male
+        <input type="radio" name="sex" value="F" /> Female
+        <br />
+        <label for="dateId">Calendar:</label>
+        <input type="date" name="date" id="dateId" />
+        <br />
+        <label for="timeId">Time:</label>
+        <input type="time" name="date" id="timeId" />
+
+        <br />
+        <label for="colorId">color:</label>
+        <input type="color" name="color" id="colorId" />
+
+        <br />
+        <label for="job">Select Job:</label>
+        <select name="job" id="job">
+          <option value="1">นักเรียน</option>
+          <option value="2">นักศึกษา</option>
+          <option value="3">พนักงานเอกชน</option>
+          <option value="4">พนักงานราชการ</option>
+        </select>
+        <br />
+        <button type="submit">ส่งข้อมูล</button>
+        <br />
+        <label for="area">Message:</label>
+        <textarea id="area" rows="8" cols="50"> </textarea>
+      </fieldset>
+    </form>
+  </body>
+</html>
